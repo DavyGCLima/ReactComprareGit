@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const Repository = styled.div`
-  width: 300px;
+  width: 250px;
   background: #FFF;
   border-radius: 5px;
   display: flex;
@@ -41,13 +41,14 @@ export const Repository = styled.div`
 
     li {
       font-weight: bold;
-      padding: 10% 18%;
+      padding: 5% 8%;
 
       small {
         font-weight: normal;
         font-size: 12px;
         color: #999;
         font-style: italic;
+        margin-left: 2%;
       }
 
       &:nth-child(2n - 1) {
