@@ -8,12 +8,12 @@ export const Container = styled.div`
 `;
 
 export const Repository = styled.div`
-  width: 350px;
+  width: 300px;
   background: #FFF;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 0 5%;
+  margin: 0 1.5%;
 
   header {
     padding: 30px;
